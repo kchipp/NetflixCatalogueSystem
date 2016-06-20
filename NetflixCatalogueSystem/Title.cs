@@ -12,21 +12,23 @@ namespace NetflixCatalogueSystem
         public double? rating;
         public double? runtime;
 
-        public Title()//constructor
+        public Title()
+            //constructor
         {
             name = null;
             rating = null;
             runtime = null;
         }
-        public Title(string name, int? rating)
+        public Title(string Name, int? Rating, double? Runtime)
         {
-            this.name = name;
-            this.rating = rating;
+            this.name = Name;
+            this.rating = Rating;
+            this.runtime = Runtime;
         }
 
-    
 
-        
+
+
 
     } //class   
 }//namespace

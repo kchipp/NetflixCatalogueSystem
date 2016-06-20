@@ -9,7 +9,8 @@ namespace NetflixCatalogueSystem
     class View 
     {   //member variables
         TVShows tvshows = new TVShows();
-        public View()//constructor
+        public View()
+            //constructor
         {
 
         }

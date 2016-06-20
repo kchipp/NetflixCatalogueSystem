@@ -12,6 +12,9 @@ namespace NetflixCatalogueSystem
         {
             Menu menu = new Menu();
             menu.netflix();
+            Catalogue _catalogue = new Catalogue();
+            _catalogue.seeCatalogue();
+            
         }
     }//class
 }//namespace

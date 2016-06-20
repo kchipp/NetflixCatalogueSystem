@@ -10,15 +10,17 @@ namespace NetflixCatalogueSystem
     {   //member variables
         public List<string> genres = new List<string>();
         
-    public Genres()//constructor
+
+    public Genres()
+            //constructor
         {
             genres.Add("Romance");
             genres.Add("Comedy");
             genres.Add("Action");
             genres.Add("Musical");
             
-        }      
-    public void GenreList()
+        }
+        public void GenreList()
         {
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Red;
